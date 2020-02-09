@@ -3,8 +3,6 @@
 
 # In[1]:
 
-
-from sklearn import datasets
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn import tree
@@ -26,9 +24,6 @@ import numpy as np
 import pandas as pd
 
 import time
-
-get_ipython().run_line_magic('load_ext', 'autoreload')
-get_ipython().run_line_magic('autoreload', '2')
 
 
 # In[2]:
